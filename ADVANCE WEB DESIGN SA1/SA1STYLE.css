@@ -1,0 +1,98 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(64, 52, 52, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .profile-description {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .resume-section {
+    margin-top: 30px;
+  }
+  
+  .resume-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .table {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .table h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .table ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .table ul li {
+    margin-bottom: 5px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .image-gallery img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+  }

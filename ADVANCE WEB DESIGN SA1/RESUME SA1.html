@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Directory Profile - Resume</title>
+    <link rel="stylesheet" href="SA1STYLE.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <button onclick="changeColor()">Change Color</button>
+
+    <div class="container">
+      <div class="profile-card">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              id="profile-img"
+              class="profile-picture"
+              src="Image/profile.jpg"
+              alt="Profile Picture"
+            />
+          </div>
+          <div class="col-md-4">
+            <h1 class="profile-name">Johfreeh Fajardo</h1>
+            <ul>
+              <li><strong>Address:</strong>San Pedro Hermosa, Bataan</li>
+              <li><strong>Contact Number:</strong> +639123123</li>
+              <li><strong>Email:</strong> gmail@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="resume-section">
+              <h2>Information</h2>
+              <ul>
+                <li><strong>Experience:</strong> Google (2022)</li>
+                <li>
+                  <strong>Education:</strong> Far Eastern University Institute
+                  of Technology (2021-Present)
+                </li>
+                <li><strong>Skills:</strong> Secret</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <p>
+          I'm currently pursuing a Bachelor's degree in Information Technology
+          (BSIT). As a student in this field, I have developed a strong
+          foundation in various areas such as programming, database management,
+          web development and cybersecurity.
+          <br />
+          <br />
+
+          Throughout my studies, I have actively engaged in various projects and
+          activities that have allowed me to enhance my knowledge and skills in
+          the field of IT. I am highly motivated to continue learning and
+          staying up-to-date with the latest trends and advancements in
+          technology
+          <br />
+          <br />
+          Apart from my academic pursuits. I am also an active member of FEU
+          community. I am a team player and possess excellent communication
+          skills, which have helped me to collaborate effectively with my peers
+          and instructors.
+          <br />
+          <br />
+          Ultimately, my goal as a BSIT student is to graduate with honors and
+          to pursue a career in Networking. I am confident that my passion for
+          technology and my dedication to learning will help me to achieve my
+          goals and contribute to the field of IT in meaningful ways.
+          <br />
+        </p>
+        <br />
+        <br />
+
+        <div class="table-container">
+          <div class="table">
+            <h3>Other Skills</h3>
+            <ul>
+              <li>Programming</li>
+              <li>Writing</li>
+            </ul>
+          </div>
+
+          <div class="table">
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <a href="https://edith.feutech.edu.ph/briefcase/profile/Johf"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a href="https://github.com/Yofuri">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  <script>
+    function changeColor() {
+      var allElements = document.querySelectorAll("body *");
+      var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+
+      allElements.forEach(function (element) {
+        if (element.id !== "profile-image") {
+          element.style.backgroundColor = randomColor;
+        }
+      });
+    }
+  </script>
+</html>
